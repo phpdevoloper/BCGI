@@ -23,6 +23,15 @@ $(document).ready(function () {
     slidesToShow: 3,
     slidesToScroll: 3,
   });
+  $(".gallery").slick({
+    arrows: true,
+    accessibility: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  });
 
   ("use strict");
 
