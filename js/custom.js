@@ -14,6 +14,12 @@
 ******************************/
 
 $(document).ready(function () {
+  //mouse outside of click event
+  // $("#closebtn").on("click", function (event) {
+  //   console.log("dffg");
+  //   $("#sidebarMenu").hide();
+  // });
+  //footer slick slide
   $(".items").slick({
     arrows: true,
     accessibility: true,
@@ -23,14 +29,15 @@ $(document).ready(function () {
     slidesToShow: 3,
     slidesToScroll: 3,
   });
+  //photo gallery slider
   $(".gallery").slick({
     arrows: true,
     accessibility: true,
     autoplay: true,
     autoplaySpeed: 3000,
     infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+    slidesToShow: 3,
+    slidesToScroll: 3,
   });
 
   ("use strict");

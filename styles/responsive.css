@@ -191,6 +191,53 @@
 ************/
 
 @media only screen and (max-width: 768px) {
+  .side-btn {
+    display: none;
+  }
+  .menu_item a {
+    font-size: 16px;
+    /* color: #ffffff; */
+  }
+  .top_bar {
+    width: 100%;
+    background: #b1b7b742;
+  }
+  .top_bar_content {
+    padding-left: 0px;
+  }
+  .menu_container {
+    position: fixed;
+    top: 0px;
+    right: -50vw;
+    width: 27vw;
+    height: 90vh;
+    background: #ffffff;
+    z-index: 101;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .menu_close_container {
+    position: absolute;
+    top: 12px;
+    right: 22px;
+    width: 14px;
+    height: -18px;
+    cursor: pointer;
+    z-index: 10;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  ul.menu_list.menu_mm {
+    margin-top: -116px;
+  }
 }
 
 /************
@@ -302,7 +349,7 @@
     background: #3bc053;
   }
   .menu_item a {
-    font-size: 20px;
+    font-size: 16px;
     color: #ffffff;
   }
   .section_title h2 {
@@ -328,7 +375,7 @@
     font-size: 28px;
   }
   .services_row {
-    margin-top: -82px;
+    margin-top: 14px;
   }
   .copyright {
     width: 100%;
@@ -336,6 +383,29 @@
     position: relative;
     z-index: 3;
     height: 100px;
+  }
+  .side-btn {
+    display: none;
+  }
+  .py-3.clogo {
+    margin-left: -29px;
+  }
+  .bcg_title {
+    font-size: 19px;
+    color: #283290;
+    margin-top: -22px;
+    padding-left: 14px;
+  }
+  .titbcg {
+    margin-top: 20px;
+    margin-left: -283px;
+  }
+  p:last-of-type {
+    margin-bottom: 0;
+  }
+  .two {
+    margin-top: 37px;
+    margin-left: -268px;
   }
 }
 
