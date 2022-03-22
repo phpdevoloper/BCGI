@@ -107,6 +107,13 @@
                       <li class="line"></li>
                       <li class="social-media">
                         <i class="fa fa-wheelchair" aria-hidden="true"></i>
+                        <ul class="accessiblelinks">
+                          <li>A+</li>
+                          <li>A</li>
+                          <li>A-</li>
+                          <li>A</li>
+                          <li>A</li>
+                        </ul>
                       </li>
                       <li class="line"></li>
                       <li class="">
@@ -165,10 +172,14 @@
                 >
                   <nav class="main_nav ml-auto">
                     <ul>
-                      <li><a href="index.html">Home</a></li>
-                      <li><a href="index.html">Director Desk</a></li>
+                      <li class="active">
+                        <a href="index.html" class="nav-link">Home</a>
+                      </li>
+                      <li>
+                        <a href="index.html" class="nav-link">Director Desk</a>
+                      </li>
                       <li class="dropdown">
-                        <a href="about.html">About us</a>
+                        <a href="about.html" class="nav-link">About us</a>
                         <ul class="dropdown-nav">
                           <li>
                             <a href="" class="list_a">Objectives of BCGVL</a>
@@ -193,13 +204,18 @@
                           </li>
                         </ul>
                       </li>
-                      <li><a href="about.html">Who's who</a></li>
-                      <li><a href="about.html">Division</a></li>
-                      <li><a href="news.html">Products</a></li>
-                      <li><a href="news.html">BCGVL Revival</a></li>
-                      <li><a href="news.html">Events</a></li>
-                      <li><a href="news.html">Gallery</a></li>
-                      <li><a href="news.html">Documents</a></li>
+                      <li>
+                        <a href="about.html" class="nav-link">Who's who</a>
+                      </li>
+                      <li>
+                        <a href="about.html" class="nav-link">Division</a>
+                      </li>
+                      <li><a href="news.html" class="nav-link">Products</a></li>
+                      <li>
+                        <a href="news.html" class="nav-link">BCGVL Revival</a>
+                      </li>
+                      <li><a href="news.html" class="nav-link">Events</a></li>
+                      <li><a href="news.html" class="nav-link">Gallery</a></li>
                     </ul>
                   </nav>
                   <div class="side-btn">
@@ -234,6 +250,11 @@
           </div> -->
           <div class="position-sticky">
             <div class="list-group list-group-flush mx-3 mt-4">
+              <a
+                href="#"
+                class="list-group-item list-group-item-action py-2 ripple"
+                ><span>Documents</span></a
+              >
               <a
                 href="#"
                 class="list-group-item list-group-item-action py-2 ripple"
@@ -488,48 +509,9 @@
             <!-- Service -->
             <div class="col-lg-4 col-md-6 service_col">
               <a href="services.html">
-                <div class="service text-center trans_200">
-                  <div class="service_icon">
-                    <img
-                      class="svg"
-                      style="width: 124px; height: 172px; margin-left: -27px"
-                      src="images/Dr.Naveen.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div class="service_title trans_200 direct">
-                    Dr.Naveen Kumar Gupta, MD
-                  </div>
-                  <div class="service_text">
-                    <h5>
-                      MBBS( UCMS,Delhi) MD Medical Microbiology(MAMC,Delhi)
-                    </h5>
-                    <h5>Ex Fellow Infectious Diseases( PDHNH, Mumbai)</h5>
-                    <h5>
-                      Expertise: Clinical Microbiology, Infectious Diseases,
-                      Zoonoses, Vaccinology
-                    </h5>
-                    <h5>DIRECTOR , BCG VACCINE LABORATORY , CHENNAI</h5>
-                    <!-- <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Curabitur ante leo, finibus quis est ut, tempor tincidunt
-                      ipsum. Nam consequat semper sollicitudin.
-                    </p> -->
-                  </div>
-                </div>
-              </a>
-            </div>
-            <!-- Service -->
-            <div class="col-lg-4 col-md-6 service_col">
-              <a href="services.html">
                 <div class="service">
                   <h5 class="title_card trans_200">ABOUT BCGVL</h5>
                   <p class="cont">
-                    <!-- <img
-                      class="service_icon"
-                      src="images/service_2.svg"
-                      alt=""
-                    /> -->
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Curabitur ante leo, finibus quis est ut, tempor tincidunt
                     ipsum. Nam consequat semper sollicitudin. Lorem ipsum dolor
@@ -570,12 +552,38 @@
                 </div>
               </a>
             </div>
+            <!-- Service -->
             <div class="col-lg-4 col-md-6 service_col">
               <a href="services.html">
                 <div class="service text-center trans_200">
-                  <!-- <div class="service_icon">
-                    <img class="svg" src="images/service_2.svg" alt="" />
-                  </div> -->
+                  <div class="service_icon">
+                    <img
+                      class="svg"
+                      style="width: 124px; height: 172px; margin-left: -27px"
+                      src="images/Dr.Naveen.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="service_title trans_200 direct">
+                    Dr.Naveen Kumar Gupta, MD
+                  </div>
+                  <div class="service_text">
+                    <h5>
+                      MBBS( UCMS,Delhi) MD Medical Microbiology(MAMC,Delhi)
+                    </h5>
+                    <h5>Ex Fellow Infectious Diseases( PDHNH, Mumbai)</h5>
+                    <h5>
+                      Expertise: Clinical Microbiology, Infectious Diseases,
+                      Zoonoses, Vaccinology
+                    </h5>
+                    <h5>DIRECTOR , BCG VACCINE LABORATORY , CHENNAI</h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 service_col">
+              <a href="services.html">
+                <div class="service text-center trans_200">
                   <div class="service_title trans_200">PRODUCTS</div>
                   <div class="service_text">
                     <p>
@@ -592,9 +600,6 @@
             <div class="col-lg-4 col-md-6 service_col">
               <a href="services.html">
                 <div class="service text-center trans_200">
-                  <!-- <div class="service_icon">
-                    <img class="svg" src="images/service_3.svg" alt="" />
-                  </div> -->
                   <div class="service_title trans_200">DIVISIONS</div>
                   <div class="service_text">
                     <p>
@@ -667,9 +672,6 @@
             <div class="col-lg-4 col-md-6 service_col" style="height: 376px">
               <a href="services.html">
                 <div id="servhov" class="service text-center trans_200">
-                  <!-- <div class="service_icon">
-                    <img class="svg" src="images/service_3.svg" alt="" />
-                  </div> -->
                   <div class="service_title trans_200">RECRUITMENTS</div>
                   <div class="service_text">
                     <ul
@@ -705,9 +707,6 @@
             <div class="col-lg-4 col-md-6 service_col" style="height: 376px">
               <a href="services.html">
                 <div id="servhov" class="service text-center trans_200">
-                  <!-- <div class="service_icon">
-                    <img class="svg" src="images/service_4.svg" alt="" />
-                  </div> -->
                   <div class="service_title trans_200">TENDERS</div>
                   <div class="service_text">
                     <ul
@@ -743,10 +742,9 @@
       </div>
 
       <!-- About -->
-      <div class="about">
+      <!-- <div class="about">
         <div class="container">
           <div class="row row-lg-eq-height">
-            <!-- About Content -->
             <div class="col-lg-7">
               <div class="about_content">
                 <div class="section_title">
@@ -767,9 +765,8 @@
                 </div>
               </div>
               <div class="about_content">
-                <!-- <div class="section_title">
                   <h2>About Us</h2>
-                </div> -->
+                </div>
                 <div class="about_text">
                   <h3>History</h3>
                   <img class="about_pic" src="images/about/house2.jpg" alt="" />
@@ -787,7 +784,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- Departments -->
 
@@ -914,30 +911,29 @@
 
               <!-- Footer - News -->
               <div class="col-lg-6 footer_col">
-                <div class="footer_news footer_column">
+                <div class="footer_about">
                   <div class="footer_title">Contact Us</div>
-                  <ul>
+                  <div class="footer_about_text">
+                    <a href="news.html"
+                      ><p>
+                        <i class="fa fa-map-marker footer_news_date"></i> , BCG
+                        Vaccine Laboratory,Guindy Industrial Estate, Guindy
+                        Institutional Area, Guindy, Chennai, Tamil Nadu 600032
+                      </p>
+                    </a>
+                  </div>
+                  <ul class="footer_about_list">
                     <li>
-                      <a href="news.html"
-                        ><p style="color: #000000">
-                          <i class="fa fa-map-marker footer_news_date"></i> ,
-                          BCG Vaccine Laboratory,Guindy Industrial Estate,
-                          Guindy Institutional Area, Guindy, Chennai, Tamil Nadu
-                          600032
-                        </p>
-                      </a>
+                      <div class="footer_about_icon">
+                        <img src="images/phone-call.svg" alt="" />
+                      </div>
+                      <span>044 - 22500476, 044 - 22501189</span>
                     </li>
                     <li>
-                      <a href="news.html" class="footer_news_date">
-                        <i class="fa fa-envelope" aria-hidden="true"></i> :
-                        bcgvl.tnchn@nic.in
-                      </a>
-                    </li>
-                    <li>
-                      <a href="news.html" class="footer_news_date">
-                        <i class="fa fa-phone" aria-hidden="true"></i> : 044 -
-                        22500476, 044 - 22501189
-                      </a>
+                      <div class="footer_about_icon">
+                        <img src="images/envelope.svg" alt="" />
+                      </div>
+                      <span>bcgvl.tnchn@nic.in</span>
                     </li>
                     <!-- <li>
                       <div class="footer_news_title">
