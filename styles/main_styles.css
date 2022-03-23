@@ -869,6 +869,9 @@ section {
 .service:hover {
   background: #283290;
 }
+.service:hover a {
+  color: #fff;
+}
 #servhov:hover {
   background: #2086c2 !important;
 }
@@ -1337,10 +1340,6 @@ ul.tittle_bcg {
   /* margin-top: 100px; */
 }
 
-.slick-slide {
-  margin: 0px 0 0 10px;
-}
-
 .slick-slide img {
   width: 35%;
   margin-top: 6px;
@@ -1393,9 +1392,9 @@ li.lines {
 }
 
 .slick-slide .photo {
-  width: 87%;
-  margin-top: 63px;
-  margin-left: 21px;
+  width: 67%;
+  /* margin-top: 1px; */
+  /* margin-left: 21px; */
   height: 169px;
 }
 
@@ -1495,8 +1494,8 @@ a.navbar-brand.d-flex.align-items-center {
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 a.nav-link {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  /* padding-top: 1rem;
+  padding-bottom: 1rem; */
   padding-left: 25px;
   padding-right: 25px;
   color: #fff;
@@ -1514,4 +1513,208 @@ a.nav-link {
 }
 img.d-block.w-100.slideimg {
   height: 500px;
+}
+.bgone {
+  width: 100%;
+  padding-top: 3px;
+  opacity: 0.8;
+  background-color: #061080;
+}
+.nav-tabs {
+  width: 509px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+}
+.nav-tabs .nav-item {
+  margin-bottom: 0;
+}
+
+.nav-tabs .nav-link {
+  border: none;
+  border-bottom: 1px solid transparent;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-radius: 0;
+  text-transform: uppercase;
+  transition: all 500ms;
+}
+
+.nav-tabs .nav-item:not(:first-child) .nav-link {
+  border-left: 1px solid #ddd;
+}
+
+.nav-tabs .nav-link svg {
+  fill: #def;
+  stroke: #13a;
+  stroke-width: 10px;
+  max-height: 17px;
+  margin-bottom: 5px;
+  transition: stroke 500ms, fill 500ms;
+}
+
+.nav-tabs .nav-link.active,
+.nav .nav-link:hover {
+  color: #c31;
+  border-bottom-color: #c31;
+  background-color: #fff;
+}
+
+.nav .nav-link.active,
+.nav .nav-link:hover {
+  fill: #fed;
+  stroke: #c31;
+}
+
+.photo_video_gallery {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  padding-top: 11px;
+  padding-bottom: 65px;
+  /* height: 100vh; */
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.area {
+  background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
+  width: 100%;
+  height: 13vh;
+}
+
+.circles li {
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  animation: animate 25s linear infinite;
+  bottom: -150px;
+}
+
+.circles li:nth-child(1) {
+  left: 25%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+}
+
+.circles li:nth-child(2) {
+  left: 10%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 2s;
+  animation-duration: 12s;
+}
+
+.circles li:nth-child(3) {
+  left: 70%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 4s;
+}
+
+.circles li:nth-child(4) {
+  left: 40%;
+  width: 60px;
+  height: 60px;
+  animation-delay: 0s;
+  animation-duration: 18s;
+}
+
+.circles li:nth-child(5) {
+  left: 65%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 0s;
+}
+
+.circles li:nth-child(6) {
+  left: 75%;
+  width: 110px;
+  height: 110px;
+  animation-delay: 3s;
+}
+
+.circles li:nth-child(7) {
+  left: 35%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 7s;
+}
+
+.circles li:nth-child(8) {
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  animation-delay: 15s;
+  animation-duration: 45s;
+}
+
+.circles li:nth-child(9) {
+  left: 20%;
+  width: 15px;
+  height: 15px;
+  animation-delay: 2s;
+  animation-duration: 35s;
+}
+
+.circles li:nth-child(10) {
+  left: 85%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 0s;
+  animation-duration: 11s;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+    border-radius: 0;
+  }
+
+  100% {
+    transform: translateY(-1000px) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%;
+  }
+}
+.cont li {
+  border-bottom: 1px solid #f86f69;
+}
+.cont li a {
+  color: #3bc053;
+}
+.blue li a {
+  color: #000000;
+}
+.green li a {
+  color: #299adc;
+}
+.service.whats {
+  border-left: 4px solid #299adc;
+}
+.cont li:nth-child(n):before {
+  content: "\1F892";
+  font-size: 25px;
+  left: -18px;
+  top: -12px;
+}
+.cont:hover li {
+  color: white;
+}
+div#myTabContent {
+  padding-top: 18px;
 }
