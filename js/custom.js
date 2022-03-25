@@ -15,10 +15,11 @@
 
 $(document).ready(function () {
   //mouse outside of click event
-  // $("#closebtn").on("click", function (event) {
-  //   console.log("dffg");
-  //   $("#sidebarMenu").hide();
-  // });
+  $(".menu_clos").on("click", function (event) {
+    console.log("fgdhg");
+    $("#sidebarMenu").removeClass("show");
+  });
+
   //footer slick slide
   $(".items").slick({
     arrows: true,
@@ -120,12 +121,11 @@ $(document).ready(function () {
   }
 
   function closeMenu() {
-    var fs = $(".menu_container");
-    fs.removeClass("active");
+    var fs = $(".sidebar");
+    fs.removeClass("show");
     hambActive = false;
     menuActive = false;
   }
-
   /* 
 
 	2. Init Home Slider

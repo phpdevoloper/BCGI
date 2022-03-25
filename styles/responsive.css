@@ -124,6 +124,7 @@
   }
   .hamburger {
     display: block;
+    top: -35px;
   }
   .home_title h1 {
     font-size: 56px;
@@ -388,13 +389,14 @@
     display: none;
   }
   .py-3.clogo {
-    margin-left: -29px;
+    margin-top: -13px;
+    margin-left: 80px;
   }
   .bcg_title {
     font-size: 19px;
     color: #283290;
-    margin-top: -22px;
-    padding-left: 14px;
+    margin-top: -25px;
+    padding-left: 6px;
   }
   .titbcg {
     margin-top: 20px;
@@ -406,6 +408,16 @@
   .two {
     margin-top: 37px;
     margin-left: -268px;
+  }
+  .w-100.slideimg {
+    padding-top: 47px;
+  }
+  span.carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 38px;
+    background-size: 100% 100%;
+    border-style: outset;
+    background-color: #a9a6a6;
   }
 }
 
