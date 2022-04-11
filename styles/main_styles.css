@@ -1273,8 +1273,7 @@ a img {
 }
 .client_logo {
   width: 100%;
-  height: 86px;
-  opacity: 0.8;
+  height: 188px;
   border-bottom: 1px solid;
 }
 .header.scrolled {
@@ -1341,8 +1340,8 @@ ul.tittle_bcg {
 }
 
 .slick-slide img {
-  width: 35%;
-  margin-top: 6px;
+  width: 62%;
+  margin-top: 30px;
   margin-left: 86px;
 }
 
@@ -1753,6 +1752,7 @@ div#myTabContent {
 }
 #cards_landscape_wrap-2 .card-flyer .text-box {
   text-align: center;
+  height: 470px;
 }
 #cards_landscape_wrap-2 .card-flyer .text-box .text-container {
   padding: 30px 18px;
