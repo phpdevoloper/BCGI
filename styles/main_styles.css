@@ -1091,9 +1091,6 @@ section {
   color: #ffffff;
 }
 .footer_links ul {
-  -webkit-columns: 2;
-  -moz-columns: 2;
-  columns: 2;
   margin-top: 35px;
 }
 .footer_links ul li:not(:last-child) {
@@ -1201,9 +1198,6 @@ h5.title_card {
   text-align: center;
 }
 
-.service:hover {
-  background: #283290;
-}
 .service:hover .title_card {
   color: #ffffff;
 }
@@ -1288,7 +1282,6 @@ a img {
 .bgimg {
   width: 100%;
   padding-top: 3px;
-  opacity: 0.8;
   background-color: #20d34a;
 }
 
@@ -1506,7 +1499,7 @@ a.nav-link {
   color: black;
 }
 img.d-block.w-100.slideimg {
-  height: 500px;
+  height: 543px;
 }
 .bgone {
   width: 100%;

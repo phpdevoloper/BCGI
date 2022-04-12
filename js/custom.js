@@ -16,7 +16,6 @@
 $(document).ready(function () {
   //mouse outside of click event
   $(".menu_clos").on("click", function (event) {
-    console.log("fgdhg");
     $("#sidebarMenu").removeClass("show");
   });
 
