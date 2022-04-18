@@ -36,8 +36,8 @@ $(document).ready(function () {
     autoplay: true,
     autoplaySpeed: 3000,
     infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToShow: 4,
+    slidesToScroll: 4,
   });
 
   ("use strict");
@@ -229,5 +229,20 @@ $(document).ready(function () {
   $(document).delegate('*[data-toggle="lightbox"]', "click", function (event) {
     event.preventDefault();
     $(this).ekkoLightbox();
+  });
+
+  $("a .btn-gallery").on("click", function (event) {
+    event.preventDefault();
+    var gallery = $(this).attr("href");
+    console.log(gallery);
+    // $(gallery)
+    //   .magnificPopup({
+    //     delegate: "a",
+    //     type: "image",
+    //     gallery: {
+    //       enabled: true,
+    //     },
+    //   })
+    //   .magnificPopup("open");
   });
 });
