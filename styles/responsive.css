@@ -124,7 +124,7 @@
   }
   .hamburger {
     display: block;
-    top: -35px;
+    top: 1px;
   }
   .home_title h1 {
     font-size: 56px;
@@ -170,6 +170,9 @@
     padding-left: 26px;
     padding-bottom: 16px;
     padding-top: 59px;
+  }
+  .col-md-6.d-flex.mb-2.mb-md-0 {
+    display: none;
   }
 }
 
@@ -237,7 +240,7 @@
     transform: rotate(45deg);
   }
   ul.menu_list.menu_mm {
-    margin-top: -116px;
+    margin-top: -18px;
   }
 }
 
@@ -344,7 +347,7 @@
     right: -100vw;
     background: #299adc !important;
     height: 245px;
-    margin-top: 146px;
+    margin-top: 111px;
   }
   .menu_container::after {
     background: #3bc053;
@@ -418,6 +421,13 @@
     background-size: 100% 100%;
     border-style: outset;
     background-color: #a9a6a6;
+  }
+  a.navbar-brand.d-flex.align-items-center {
+    margin-left: -26px;
+  }
+  .dghs {
+    height: 0px;
+    margin-left: 0px;
   }
 }
 

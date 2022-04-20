@@ -23,7 +23,7 @@ $(document).ready(function () {
   $(".items").slick({
     arrows: true,
     accessibility: true,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 3000,
     infinite: true,
     slidesToShow: 3,
@@ -33,7 +33,7 @@ $(document).ready(function () {
   $(".gallery").slick({
     arrows: true,
     accessibility: true,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 3000,
     infinite: true,
     slidesToShow: 4,
