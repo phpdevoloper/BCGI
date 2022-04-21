@@ -45,7 +45,6 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: 500;
-  background: #ffffff;
   color: #696969;
 }
 div {
@@ -1876,7 +1875,7 @@ h2.title_gallery {
 /*dghs logo */
 .dghs {
   height: 95px;
-  margin-left: 500px;
+  margin-left: 714px;
 }
 
 .ig-box div img {
@@ -1984,9 +1983,9 @@ div#home {
   visibility: visible;
 } */
 
-.footer_links ul li a::before {
+.footer_links ul li a:before {
+  content: "\f0da";
   font-family: "Font Awesome 5 Free";
-  content: "\f11e";
   font-weight: 900;
   vertical-align: middle;
   font-size: 12px;
